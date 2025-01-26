@@ -1,0 +1,45 @@
+section {
+    border: 4px solid cyan;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 0 auto;
+    min-width: 200px;
+    /* font-size: 24px; */
+    /* text-decoration: underline; */
+  }
+  
+  .title {
+    text-decoration: underline;
+    font-size: 28px;
+  }
+  
+  .textbox {
+    white-space: pre-wrap;
+    /* or pre-line */
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    padding: 12px 0px;
+  }
+  
+  .amount {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .eventLog {
+    border: 1px solid cyan;
+    border-radius: 2px;
+    height: 4rem;
+    margin-top: 0.5rem;
+    font-size: 12px;
+    overflow-y: scroll;
+  }
+
+  /* restocked.
+The shop has been restocked.
+The shop has been restocked.
+The shop has been restocked.
+The shop has been restocked.
+The shop has been restocked.
+The shop has been restocked. */
