@@ -17,7 +17,7 @@ function App() {
   return (
     <div className={styles.app}>
       <GeneralContext.Provider value={generalContextObj}>
-        <h1 className={styles.title}>Observer Pattern Example</h1>
+        <h1 className={styles.title}>Potion Business</h1>
         <div className={styles.main}>
           <PotionFactory title={'Potion Factory'} gridArea={'factory'} />
           <PotionShop title={'Potion Shop'} gridArea={'shop'}  />

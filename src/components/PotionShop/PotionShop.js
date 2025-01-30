@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import styles from './PotionShop.module.css';
 import { GeneralContext } from '../../contexts/context';
-import { Button } from '../Button/Button';
 export const PotionShop = ({
     gridArea
 }) => {
@@ -48,7 +47,7 @@ export const PotionShop = ({
             <p className={styles.title}>Potion Shop</p>
             <p className={styles.amount}>Potions amount: {potions > 0 ? potions : "Out of stock, please wait."}</p>
             <div className={styles.textbox}>
-                <Button label={'Sell potion'} fn={sellPotion} disabled={potions === 0} btnStyles={{ fontSize: "12px", width: "100%" }} />
+                {/* <Button label={'Sell potion'} fn={sellPotion} disabled={potions === 0} btnStyles={{ fontSize: "12px", width: "100%" }} /> */}
                 <div className={styles.eventLog}>
                     {eventLog && eventLog.length > 0 ? eventLog.join('\n') : 'No records.'}
                 </div>

@@ -39,7 +39,7 @@ export const PotionFactory = ({
             <p className={styles.amount}>Potions amount: Infinite</p>
             <div className={styles.textbox}>
                 <p>Status: {isRefilling ? 
-                    <span>Restocking potions in {isRefilling ? counter : 'Idle'}</span> : <span>Idle</span>}</p>
+                    <span>Restocking potions in {isRefilling ? counter : 'Idle'}s</span> : <span>Idle</span>}</p>
             </div>
         </section>
     )
